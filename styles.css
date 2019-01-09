@@ -1,0 +1,32 @@
+.imgss{
+    margin: auto;
+    width:50%;
+}
+
+.smaller{
+    position: inherit;
+    height: 500px;
+    width: 100%;
+}
+
+#carouselExampleIndicators{
+    margin-top: 20px;
+}
+
+#content{
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    height: 500px;
+    text-align: center;
+}
+
+#heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#body_content{
+    padding-left: 10px;
+    width: 90%;
+}
