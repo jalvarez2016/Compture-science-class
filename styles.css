@@ -35,3 +35,8 @@
     float: left;
     padding: 50px;
 }
+
+#main_image{
+    height: 600px;
+    background-color: grey;
+}
