@@ -34,6 +34,9 @@
 .card_align{
     float: left;
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
 }
 
 #main_image{
@@ -48,6 +51,7 @@
 }
 
 .card_image{
+    padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     height: 200px;
