@@ -36,7 +36,7 @@
     padding: 50px;
     display: flex;
     justify-content: center;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 #main_image{
@@ -44,7 +44,7 @@
     background-color: grey;
 }
 .pos{
-    height:150px;
+    height:190px;
 }
 .postwo{
     height:250px;
