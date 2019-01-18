@@ -47,7 +47,7 @@
     height:190px;
 }
 .postwo{
-    height:250px;
+    height:100px;
     width: 200px;
     overflow:auto;
 }
@@ -61,19 +61,44 @@
     position: relative;
 }
 
-.card-title{
-    padding-top: 50px
-    
-}
 
-.postwo{
-    height: 200px;
-    
-}
 #dv{
     color: black;
     border-width: 3px;
     border-color: black;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-text{
+    padding-left: 15px;
+}
+
+.custom-hr{
+    position: relative;
+    left:10%;
+    background-color: grey;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 3px;
+}
+
+.card-holder{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-width: 1300px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+}
+
+.row{
+    width: 100%;
+    margin-right: 0px;
+    margin-left:  0px; 
 }
