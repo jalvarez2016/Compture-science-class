@@ -37,6 +37,7 @@
     display: flex;
     justify-content: center;
     margin-left: 40px;
+    
 }
 
 #main_image{
@@ -47,18 +48,17 @@
     height:190px;
 }
 .postwo{
-    height:100px;
+    height:140px;
     width: 310px;
     overflow:auto;
 }
 
 .card_image{
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
     height: 200px;
-    width:100%;
-    position: relative;
+    width:99%;
 }
 
 
@@ -102,3 +102,25 @@
     margin-right: 10px;
     margin-left:  10px; 
 }
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.card-body{
+    position: absolute;
+    left:3px;
+    bottom: 20px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.4); 
+}
+
+    
