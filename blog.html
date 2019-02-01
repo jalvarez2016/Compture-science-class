@@ -4,7 +4,8 @@
         <title>Computer Science class</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
     </head>
     <body>
         
@@ -18,14 +19,14 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.html">About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="blog.html">Blog</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Blog</a>
       </li>
       <li class="nav-item">
       <!--  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
@@ -80,9 +81,10 @@
          </h1> 
       </div>
       <div id="body_content">
-          <p class="body-content-main">Some text describing the stuff we do in class.
+          <p class="body-content-main">
+          Some text describing the stuff we do in class.
           There's more info about it in the about page. The class is relitively slow in leanrning the basics of HTML and CSS with no investment in a dynamic language (if that is what you call it), such as javascript.
-          
+          This text was stolen from the index page.
           </p>
       </div>
   
@@ -90,9 +92,21 @@
 
     </body>
     
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDP6SmiExg96V5zg2y0b7OYTE__JIFVQVo",
+    authDomain: "computer-science-website.firebaseapp.com",
+    databaseURL: "https://computer-science-website.firebaseio.com",
+    projectId: "computer-science-website",
+    storageBucket: "computer-science-website.appspot.com",
+    messagingSenderId: "163900386620"
+  };
+  firebase.initializeApp(config);
+</script>
     
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="blog.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
