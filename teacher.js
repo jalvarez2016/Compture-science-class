@@ -1,4 +1,7 @@
 /*global $*/
 $("#login").click(function(){
-    $("#test").append(" hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man ");
+    
+    var username=$("#username").val();
+    $("#test").append(username);
+    console.log(username);
 })
