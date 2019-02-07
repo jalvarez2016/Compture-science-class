@@ -1,4 +1,4 @@
 /*global $*/
-$("#logIn").click(function(){
-    $("#test").append("hi man");
+$("#login").click(function(){
+    $("#test").append(" hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man hi man ");
 })
