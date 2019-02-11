@@ -2,6 +2,6 @@
 $("#login").click(function(){
     
     var username=$("#username").val();
-    $("#test").append(username);
+    $("#test").html(username);
     console.log(username);
 })
