@@ -167,7 +167,8 @@ body{
 .footer-descript{
     color: grey;
 }
-
-#loginpass{
-    
+#password.pw {
+    -webkit-text-security: disc;
 }
+
+

@@ -26,7 +26,7 @@ databaseRef.once("value").then(function(snapshot) {
         var UPass = directory[key].password;
         
         $("#login").click(function(){
-        if(UName === $("#username").val() && UPass === $("#paswered").val() ){
+        if(UName === $("#username").val() && UPass === $("#password").val() ){
             window.location.replace("blog.html");
         }
         
