@@ -10,13 +10,10 @@ var databaseRef = database.ref("/");
 databaseRef.once("value").then(function(snapshot) {
  // Use .val() to get the data from the snapshot.
  const directory = snapshot.val();
- console.log(directory);
  var UName;
  var UPass;
  
     for(var key in directory){
-        console.log(key);
-        console.log(directory[key].password);
         UName = directory[key].username;
         UPass = directory[key].password;
         
@@ -24,11 +21,30 @@ databaseRef.once("value").then(function(snapshot) {
     }
     $("#login").click(function(){
         if(UName === $("#username").val() && UPass === $("#password").val()){
-            window.location.replace("blog.html");
+            window.location.replace("input.html");
             
         } else {
             $("#incorrect").html("That was incorrect");
         }
         
         });
+        
+    $("body").keydown(function(event) {
+    
+    if (event.which === 13) {
+        console.log("hi");
+            if(UName === $("#username").val() && UPass === $("#password").val()){
+            window.location.replace("input.html");
+            
+        } else {
+            $("#incorrect").html("That was incorrect");
+        }
+      }
+    });
+
+    
+    
+    
+    
 });
+

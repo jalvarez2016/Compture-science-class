@@ -167,10 +167,11 @@ body{
 .footer-descript{
     color: grey;
 }
-#password.pw {
-    -webkit-text-security: disc;
+#password {
+    color:transparent;
 }
 
+    
 #incorrect{
     color: red;
 }

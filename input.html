@@ -18,7 +18,7 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
@@ -26,6 +26,12 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="exploring-computer-science.html">Exploring Compter Science</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Upload</a>
       </li>
       <li class="nav-item">
       <!--  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
@@ -73,48 +79,26 @@
 
   <!-- Body Content --> 
 <hr class="dv">
-<div class="col-centered" id="content">
+  <div id="content">
       <div id="heading">
          <h1>
-             Teacher only
+             Hello World
          </h1> 
       </div>
-      <div id="loginpass">
-        
-          <div>
-            <p >Username <input id="username"></p>
-          </div>
+      <div id="body_content">
+          <p class="body-content-main">Some text describing the stuff we do in class.
+          There's more info about it in the about page. The class is relitively slow in leanrning the basics of HTML and CSS with no investment in a dynamic language (if that is what you call it), such as javascript.
           
-          <div>
-              <p >Password <input type="password" name="password" id="password"></p>
-          </div>
-          
-          <div>
-              <button id="login">log in</button>
-          </div>
+          </p>
       </div>
-      <h1 id="incorrect"></h1>
-  </div>
   
+  </div>
 
-      <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
-      <script>
-        // Initialize Firebase
-        var config = {
-          apiKey: "AIzaSyDUExCTxTDwGP2V9sRnXZMc4T7qYs_dnsM",
-          authDomain: "webschool-8b1b8.firebaseapp.com",
-          databaseURL: "https://webschool-8b1b8.firebaseio.com",
-          projectId: "webschool-8b1b8",
-          storageBucket: "webschool-8b1b8.appspot.com",
-          messagingSenderId: "39115618234"
-        };
-        firebase.initializeApp(config);
-      </script>
-      
+
     </body>
     
     
-    <script src="teacher.js" type="module" defer=""></script>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

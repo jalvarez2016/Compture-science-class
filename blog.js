@@ -9,6 +9,7 @@ databaseRef.once('value').then(function(snapshot){
     for(var key in databaseValues["Facts"]){
 
         console.log("hi");
+        
         //$("#info").append(databaseValues["Facts"][i]["Fact"]);
         
     }
