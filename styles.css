@@ -167,12 +167,12 @@ body{
 .footer-descript{
     color: grey;
 }
-#password {
-    color:transparent;
-}
 
     
 #incorrect{
     color: red;
 }
 
+#back{
+    background-color: #486593;
+}
