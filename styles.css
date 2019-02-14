@@ -199,8 +199,17 @@ body{
 .secretbutton{
     height:15px;
     width: 15px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
 }
 #secretbutton{
     position: absolute;
     left:1px;
+}
+#footersch{
+    height:149px;
+    width: 200px;
 }
