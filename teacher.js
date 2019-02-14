@@ -41,10 +41,4 @@ databaseRef.once("value").then(function(snapshot) {
         }
       }
     });
-
-    
-    
-    
-    
 });
-
