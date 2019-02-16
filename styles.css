@@ -140,11 +140,13 @@ body{
 }
 
 .footer{
-    height: 300px;
+    height: inherit;
+    padding-bottom: 50px;
     width: 100%;
     background-color: black;
     color: white;
     text-align-last: left;
+    position: absolute;
     
 }
 
@@ -162,7 +164,7 @@ body{
     height: 80%;
     position: relative;
     float: left;
-    padding-left: 20%;
+    padding-left: 10%;
     padding-top: 20px;
     font-size: small;
 }
@@ -190,11 +192,18 @@ body{
 #input_field{
     width: 20%;
     margin: auto;
-    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
 }
 
 .table-content{
     text-align:left;
+    padding: 5px;
 }
 .secretbutton{
     height:15px;
@@ -213,3 +222,10 @@ body{
     height:149px;
     width: 200px;
 }
+
+#comment{
+    min-width: 90%;
+    min-height: 300px;
+    max-height: 400px;
+}
+
